@@ -1,35 +1,27 @@
-package program;
+package printhello;
 
 public class NestedIfCondition {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int age =20;
-		int weight=49;
+		boolean kfc= true; // or false
+		boolean chicken=true; // or false
+		boolean pepsi=true;  // or false
 		
 		
-		if(age>=20) {
-				
+		if(kfc) {
+			System.out.println("Enter into KFC");
 			
-			if(weight>50)
+			if(chicken) {
+				System.out.println("Eating CHICKEN");
 				
-				System.out.println("You are eligible to donate blood");
-				
-				else {
-					
-					System.out.println("Your age must be more than 20 to donate blood");
+				if(pepsi) {
+					System.out.println("Drinking PEPSI");
 				}
-		}
-				
-			
-			
-			else {
-				
-				System.out.println("You are not eligible to donate blood");
 			}
 		}
 
 	}
 
-
+}

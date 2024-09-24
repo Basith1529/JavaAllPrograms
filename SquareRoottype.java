@@ -1,18 +1,19 @@
 package printhello;
 
-public class SquareRoot {
+public class SquareRoottype {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int i=1;
 		
-		while(i<=100) {
+		int a=0;
+		
+		for(int i=1;i<=10;i++) {
 			
-			int t=i*i;
+			a=i*i;
 			
-			System.out.println(t);
+			System.out.println(a);
 		}
-		i++;
+         a=0;
 	}
 
 }

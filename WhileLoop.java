@@ -1,18 +1,19 @@
 package printhello;
 
-public class SquareRoot {
+public class WhileLoop {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int i=1;
 		
-		while(i<=100) {
+		int i=0;
+		int b=10;
+		while(i<=b) {
 			
-			int t=i*i;
-			
-			System.out.println(t);
+			System.out.println(i);
+			i++;
 		}
-		i++;
+		
+
 	}
 
 }
